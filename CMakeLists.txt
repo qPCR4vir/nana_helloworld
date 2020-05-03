@@ -15,5 +15,5 @@ add_subdirectory(../nana ../cmake-nana-build-${CMAKE_BUILD_TYPE} )
 
 add_executable(nana_helloworld helloworld_demo.cpp)
 target_link_libraries(nana_helloworld PUBLIC nana)
-install(TARGETS ${test} nana_helloworld DESTINATION "../bin/nana_helloworld")
+install(TARGETS nana_helloworld DESTINATION "bin/nana_helloworld")
 
